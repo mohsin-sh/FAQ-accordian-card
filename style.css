@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient( hsl(273, 75%, 66%), hsl(240, 73%, 65%) );
+    background-repeat: no-repeat;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container{
+    width: 60%;
+    height: 70%;
+    background-color:white;
+    border-radius: 20px;
+    position: relative;
+    top: 15%;
+    left: 20%;
+    overflow: hidden;
+    box-shadow: 0px 20px 20px hsl(238, 32%, 52%) ;
+}
+#dex-background{
+    width: 50%;
+    height: 120%;
+    margin-left: -100px;
+    position: relative;
+    top: -10%;
+}
+
+#dex-illustration{
+    position: absolute;
+    left: -10%;
+    bottom: 15%;
+}
+
+#box-illustration{
+    z-index: 9999;
+    position: absolute;
+    left: 11.5%;
+    top: 43%;
+}
+.mainHeading{
+    position: absolute;
+    left: 55%;
+    top: 10%;
+}
+
+.faq{
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+#question1,#question2,#question3,#question4,#question5{
+    font-size: 10px;
+    cursor: pointer;
+}
+#question1:hover{
+    color: hsl(14, 88%, 65%);
+}
+#question2:hover{
+    color: hsl(14, 88%, 65%);
+}
+#question3:hover{
+    color: hsl(14, 88%, 65%);
+}
+#question4:hover{
+    color: hsl(14, 88%, 65%);
+}
+#question5:hover{
+    color: hsl(14, 88%, 65%);
+}
+
+#question img{
+    position: relative;
+    top: -15px;
+    left: 300px;
+}
+
+.second{
+    position: absolute;
+    top: 35% ;
+}
+.third{
+    position: absolute;
+    top: 50% ;
+}
+.forth{
+    position: absolute;
+    top: 65% ;
+}
+.fifth{
+    position: absolute;
+    top: 80% ;
+}
+hr{
+    width: 300px;
+}
+#mob-background{
+    display: none;
+}
+#mob-illustration{
+    display: none;
+}
+
+@media screen and (max-width: 500px){   
+    #dex-background{
+        display: none;
+    }
+    #dex-illustration{
+        display: none;
+    }
+    #mob-background{
+        width: 250px;
+        display: inherit;
+        position: relative;
+        top: -5px;
+        left: 43px;
+    }
+    #mob-illustration{
+        width: 250px;
+        display: inherit;
+        position: absolute;
+        top: -100px;
+        left: 30px;
+    }
+    #box-illustration{
+        display: none;
+    }
+    .container{
+        overflow: inherit;
+        width: 90%;
+        height: 75%;
+        position: relative;
+        left: 20px;
+    }
+    .mainHeading{
+        position: relative;
+        left: 40%;
+    }
+    .faq{
+        width: 90%;
+        font-size: 10px;
+        position: relative;
+        left: 10px;
+    }
+    .second{
+        position: relative;
+        top: 25% ;
+    }
+    .third{
+        position: relative;
+        top: 30% ;
+    }
+    .forth{
+        position: relative;
+        top: 35% ;
+    }
+    .fifth{
+        position: relative;
+        top: 40% ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
